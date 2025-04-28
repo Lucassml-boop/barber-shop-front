@@ -1,54 +1,58 @@
-# Barber Shop - Frontend
+## Barber Shop Front
+Este é o repositório para o front-end de um sistema de gerenciamento para uma barbearia. Este projeto é construído utilizando tecnologias modernas como TypeScript, HTML, SCSS, e Docker, e segue boas práticas de desenvolvimento.
 
-Este repositório contém o frontend do sistema de gerenciamento de uma barbearia.
+### 🛠️ Tecnologias Utilizadas
+TypeScript: Para uma tipagem estática e mais robustez no código.
+HTML: Estrutura do front-end.
+SCSS: Estilização avançada e modularizada.
+Docker: Para facilitar a execução do projeto em ambientes consistentes.
+Shell Scripts: Para automação de tarefas.
+### 🚀 Funcionalidades
+Cadastro de clientes.
+Edição de informações de clientes.
+Visualização de lista de clientes.
+Design responsivo para diferentes tamanhos de tela.
+Integração com APIs para persistência de dados.
+### 📁 Estrutura de Pastas
+Abaixo, uma breve descrição das principais pastas do projeto:
 
-## 🚀 Funcionalidades
+src/app/clients/components/client-form: Componentes relacionados ao formulário de cadastro e edição de clientes.
+src/app/clients: Módulo de gerenciamento de clientes.
+src/app: Código principal da aplicação.
+public: Arquivos públicos, como imagens e fontes.
+.vscode: Configurações específicas do editor VS Code.
+### 📦 Como Executar o Projeto
+Pré-requisitos
+Certifique-se de ter instalado:
 
-- **Agendamento de Serviços**: Clientes podem visualizar horários disponíveis e agendar serviços.
-- **Gerenciamento de Usuários**: Registro e login de clientes para acompanhamento dos agendamentos.
-- **Catálogo de Serviços**: Lista de serviços oferecidos pela barbearia, com descrições e preços.
+#Node.js (versão 16 ou superior)
+Docker (opcional, caso deseje rodar o projeto em um container)
+Passo a Passo
+Clone este repositório:
 
-## 🛠️ Tecnologias Utilizadas
+```bash
+git clone https://github.com/Lucassml-boop/barber-shop-front.git
+cd barber-shop-front
+Instale as dependências:
+```
+```bash
+npm install
+Execute o projeto:
+```
+```bash
+npm start
+Abra o navegador e acesse: http://localhost:3000.
+```
 
-- **Frontend**: Angular
-- **Backend**: API REST Spring Boot
-- **Banco de Dados**: PostgreSQL
+#Usando Docker
+Se preferir, você pode rodar o projeto utilizando Docker:
 
-## 📂 Estrutura do Projeto
+Construa a imagem Docker:
 
-- `public/` - Arquivos estáticos e de configuração pública.
-- `src/` - Código-fonte principal da aplicação.
-- `.editorconfig` - Configuração de formatação de código.
-- `.gitignore` - Arquivos e pastas ignorados pelo Git.
-- `Dockerfile` - Instruções para criação de uma imagem Docker.
-- `docker-compose.yml` - Configuração para orquestração de contêineres Docker.
-- `package.json` - Metadados do projeto e dependências.
-- `tsconfig.json` - Configurações do compilador TypeScript (se aplicável).
+bash
+docker build -t barber-shop-front .
+Execute o container:
 
-## ▶️ Como Executar o Projeto
-
-1. **Clone o Repositório**
-
-   ```bash
-   git clone https://github.com/Lucassml-boop/barber-shop-front.git
-   ```
-
-2. **Instale as Dependências**
-
-   ```bash
-   npm install  # ou yarn install
-   ```
-
-3. **Execute a Aplicação**
-
-   ```bash
-   npm start  # ou yarn start
-   ```
-
-4. **Acesse no Navegador**
-
-   Abra o navegador e vá para `http://localhost:4200/`.
-
-## 🤝 Contribuições
-
-Contribuições são bem-vindas! Entre em contato com o mantenedor para mais detalhes.
+bash
+docker run -p 3000:3000 barber-shop-front
+Acesse a aplicação em: http://localhost:3000.
