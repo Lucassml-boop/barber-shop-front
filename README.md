@@ -47,13 +47,16 @@ Abra o navegador e acesse: http://localhost:3000.
 #Usando Docker
 Se preferir, você pode rodar o projeto utilizando Docker:
 
-Construa a imagem Docker:
+1.Construa a imagem Docker:
 
 ```bash
 docker build -t barber-shop-front .
-Execute o container:
+
 ```
+2.Execute o container:
+
 ```bash
 docker run -p 3000:3000 barber-shop-front
-Acesse a aplicação em: http://localhost:3000.
 ```
+3.Acesse a aplicação em: http://localhost:3000.
+
