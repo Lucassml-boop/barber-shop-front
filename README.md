@@ -25,7 +25,7 @@ public: Arquivos públicos, como imagens e fontes.
 Pré-requisitos
 Certifique-se de ter instalado:
 
-#Node.js (versão 16 ou superior)
+# Node.js (versão 16 ou superior)
 Docker (opcional, caso deseje rodar o projeto em um container)
 Passo a Passo
 Clone este repositório:
