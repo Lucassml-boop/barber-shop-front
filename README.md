@@ -10,9 +10,9 @@ Este repositório contém o frontend do sistema de gerenciamento de uma barbeari
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Frontend**: React ou Angular (a confirmar)
-- **Backend**: API REST (exemplo: Node.js ou Spring Boot)
-- **Banco de Dados**: MySQL, PostgreSQL ou MongoDB
+- **Frontend**: Angular
+- **Backend**: API REST Spring Boot
+- **Banco de Dados**: PostgreSQL
 
 ## 📂 Estrutura do Projeto
 
