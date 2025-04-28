@@ -49,10 +49,11 @@ Se preferir, você pode rodar o projeto utilizando Docker:
 
 Construa a imagem Docker:
 
-bash
+```bash
 docker build -t barber-shop-front .
 Execute o container:
-
-bash
+```
+```bash
 docker run -p 3000:3000 barber-shop-front
 Acesse a aplicação em: http://localhost:3000.
+```
