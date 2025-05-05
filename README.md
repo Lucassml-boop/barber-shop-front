@@ -12,7 +12,7 @@ Este repositório contém o front-end do sistema de gerenciamento de uma barbear
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Frontend**: TypeScript e HTML
+- **Frontend**: TypeScript
 - **Estilização**: SCSS
 - **Automação**: Shell Scripts
 - **Containerização**: Docker
