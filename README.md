@@ -83,5 +83,4 @@ Você também pode rodar o projeto utilizando o Docker:
 3. **Acesse a Aplicação**
 
    A aplicação estará disponível em `http://localhost:3000`.
-```
 
