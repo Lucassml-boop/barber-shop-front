@@ -1,3 +1,5 @@
+Atualizado o README com a informação adicional sobre a necessidade de iniciar a API:
+
 # Barber Shop Front
 
 Este repositório contém o front-end do sistema de gerenciamento de uma barbearia.
@@ -50,13 +52,17 @@ Este repositório contém o front-end do sistema de gerenciamento de uma barbear
    npm install
    ```
 
-4. **Execute o Projeto**
+4. **Inicie a API do Projeto**
+
+   Para que o front-end funcione corretamente, é necessário iniciar a API deste projeto. Siga as instruções no repositório da API: [Barber Shop API](https://github.com/Lucassml-boop/barber-shop-api/blob/main/README.md).
+
+5. **Execute o Projeto**
 
    ```bash
    npm start
    ```
 
-5. **Acesse a Aplicação**
+6. **Acesse a Aplicação**
 
    Abra o navegador e acesse: `http://localhost:3000`.
 
@@ -79,3 +85,5 @@ Você também pode rodar o projeto utilizando o Docker:
 3. **Acesse a Aplicação**
 
    A aplicação estará disponível em `http://localhost:3000`.
+```
+
