@@ -1,5 +1,5 @@
 ## Barber Shop Front
-Este é o repositório para o front-end de um sistema de gerenciamento para uma barbearia. Este projeto é construído utilizando tecnologias modernas como TypeScript, HTML, SCSS, e Docker, e segue boas práticas de desenvolvimento.
+Este é o repositório para o front-end de um sistema de gerenciamento para uma barbearia. Este projeto é construído utilizando tecnologias modernas como TypeScript e Docker, e segue boas práticas de desenvolvimento.
 
 ### 🛠️ Tecnologias Utilizadas
 TypeScript: Para uma tipagem estática e mais robustez no código.
