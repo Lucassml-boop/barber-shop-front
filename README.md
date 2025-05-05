@@ -1,5 +1,3 @@
-Atualizado o README com a informação adicional sobre a necessidade de iniciar a API:
-
 # Barber Shop Front
 
 Este repositório contém o front-end do sistema de gerenciamento de uma barbearia.
